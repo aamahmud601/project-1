@@ -48,4 +48,19 @@ section{
 }  
 h2{
     color: tomato;
-}  
+} 
+.shadow{
+    background-image: url(img/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    
+} 
+.box-shadow{
+    box-shadow:18px 18px 25px gray;
+    height: 70%;
+    border-radius: 10px;
+}
+#slide-border-1{
+    border-left:5px solid ;
+    border-image: linear-gradient(0);
+}
