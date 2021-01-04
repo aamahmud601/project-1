@@ -16,8 +16,8 @@ h1{
 .half-width{
     width: 40%;
     float:left;
-    margin-left: 2%;
-    padding-left: 5%;
+    margin-left: 5%;
+    padding-left: 4%;
     font-weight:bold;
 }
  .half-width img{
@@ -56,11 +56,23 @@ h2{
     
 } 
 .box-shadow{
-    box-shadow:18px 18px 25px gray;
+    box-shadow:20px 20px 18px gray;
     height: 70%;
     border-radius: 10px;
+    background-color: white;
 }
 #slide-border-1{
     border-left:5px solid ;
-    border-image: linear-gradient(0);
+    border-image: linear-gradient(blue,rgb(0, 105, 91));
+    border-image-slice: 1;
+}
+#slide-border-2{
+    border-left:5px solid ;
+    border-image: linear-gradient(rgb(148, 6, 6), red );
+    border-image-slice: 1;
+}
+footer{
+    color: tomato;
+    text-align: center;
+    font-weight: bolder;
 }
